@@ -47,7 +47,7 @@ export let openCallModal = function () {
     filter.addEventListener("click", function (e) {
       const target = e.target;
       const itscall = target == call || call.contains(target);
-      const itscallOpen = target == callOpen[1] || callOpen[0];
+      const itscallOpen = target == callOpen[1];
       const callIsActive = call.classList.contains("call--open");
       if (!itscall && !itscallOpen && callIsActive) {
         console.log(e.target.classList);

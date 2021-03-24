@@ -40,7 +40,7 @@ export let openFeedbackModal = function () {
     filter.addEventListener("click", function (e) {
       const target = e.target;
       const itsfeedback = target == feedback || feedback.contains(target);
-      const itsfeedbackOpen = target == feedbackOpen[0] || feedbackOpen[1];
+      const itsfeedbackOpen = target == feedbackOpen[1];
       const feedbackIsActive = feedback.classList.contains("feedback--open");
       if (!itsfeedback && !itsfeedbackOpen && feedbackIsActive) {
         console.log(e.target.classList);
