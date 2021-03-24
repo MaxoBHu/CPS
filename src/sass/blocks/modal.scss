@@ -1,0 +1,146 @@
+.call {
+  transform: translateX(120%);
+}
+.feedback {
+  transform: translateX(120%);
+}
+
+.call--open {
+  transform: translateX(0%);
+}
+
+.feedback--open {
+  transform: translateX(0%);
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 100%;
+  background-color: white;
+  box-shadow: -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+  position: fixed;
+  right: 0;
+  transition: 0.5s;
+  top: 0;
+  z-index: 3;
+  overflow: hidden;
+  @media (min-width: 1440px) {
+    width: 440px;
+    overflow: visible;
+  }
+}
+
+.modal-close {
+  background-image: url("../img/icon-close.svg");
+  background-position: 11px 11px;
+  margin-left: 16px;
+  margin-top: 24px;
+  @media (min-width: 1440px) {
+    position: absolute;
+    top: 8px;
+    left: -90px;
+  }
+}
+
+.modal-title {
+  font-family: "TTLakes", sans-serif;
+  line-height: 32px;
+  font-size: 24px;
+  position: relative;
+  margin-top: 36px;
+  margin-bottom: 21px;
+  padding-left: 16px;
+  font-weight: bold;
+  letter-spacing: -0.6px;
+  @media (min-width: 1440px) {
+    margin-top: 41px;
+    padding-left: 31px;
+  }
+}
+.modal-title::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 40px;
+  top: -10px;
+  left: 1px;
+  background-image: url("../img/h-decoration.svg");
+}
+
+.modal-input {
+  height: 24px;
+  width: 262px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  font-size: 16px;
+  font-family: "TTLakes", sans-serif;
+  margin-left: 15px;
+  @media (min-width: 1440px) {
+    width: 349px;
+    padding-left: 16px;
+    margin-left: 30px;
+  }
+}
+
+.feedback-input {
+  margin-bottom: 17px;
+  padding-left: 15px;
+}
+
+.feedback-input--tel {
+  padding-top: 10px;
+}
+
+.feedback-input--email {
+  padding-top: 10px;
+}
+
+.feedback-textarea {
+  font-weight: 400;
+  height: 106px;
+  padding: 10px 12px 0 15px;
+  margin-top: -2px;
+}
+
+.modal-text {
+  color: #7e7e82;
+  font-weight: 600;
+  line-height: 16px;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 14px;
+  width: 300px;
+  @media (min-width: 1440px) {
+    margin-left: 31px;
+    width: 380px;
+  }
+}
+
+.modal-text__warning {
+  color: #ff3e79;
+}
+
+.feedback-text {
+  margin-top: 10px;
+}
+
+.modal-submit {
+  margin-left: 168px;
+  margin-top: 18px;
+  width: 136px;
+  padding-left: 18px;
+  @media (min-width: 1440px) {
+    margin-left: 272px;
+  }
+}
+
+.modal-submit::after {
+  right: 19px;
+}
+
+.feedback-submit {
+  margin-top: 23px;
+}

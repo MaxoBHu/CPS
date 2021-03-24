@@ -1,0 +1,470 @@
+.block {
+  border-bottom: 1px solid #d9fff5;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 768px) {
+    min-width: 768px;
+    padding-bottom: 32px;
+  }
+  @media (min-width: 1440px) {
+    width: 1120px;
+    padding-bottom: 50px;
+  }
+}
+
+.block-title {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #7e7e82;
+  padding: 16px 0 16px 16px;
+  letter-spacing: -0.2px;
+  line-height: 24px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  font-weight: 400;
+  @media (min-width: 768px) {
+    background: linear-gradient(90deg, #f8f8f8 1.39%, #ffffff 100%);
+    padding: 16px 0 16px 24px;
+    margin-bottom: 24px;
+  }
+  @media (min-width: 1440px) {
+    background: linear-gradient(270deg, #ffffff 0%, #f8f8f8 98.61%);
+    padding: 16px 0 16px 32px;
+  }
+}
+
+.brands-block {
+  .swiper-container {
+    .swiper-wrapper {
+      .swiper-slide {
+        @media (min-width: 768px) {
+          height: 72px;
+        }
+      }
+    }
+  }
+}
+
+.brands-block__limiter {
+  @media (min-width: 768px) {
+    height: 172px;
+  }
+}
+
+.block {
+  .swiper-slide {
+    width: 240px;
+    border-radius: 5px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    position: relative;
+    margin-right: 15px;
+
+    @media (min-width: 768px) {
+      width: 224px;
+      margin-bottom: 14px;
+      margin-right: 21px;
+    }
+    @media (min-width: 1440px) {
+      width: 240px;
+      margin-right: 29px;
+    }
+
+    .swiper-item {
+      height: 72px;
+      @media (min-width: 768px) {
+        height: 71px;
+      }
+      &--lenovo {
+        background: no-repeat 15px center url("../img/brands/lenovo.svg");
+        @media (min-width: 768px) {
+          background-position: 15px 18px;
+        }
+      }
+      &--samsung {
+        background: no-repeat 13px center url("../img/brands/samsung.svg");
+        @media (min-width: 768px) {
+          background-position: 16px center;
+        }
+      }
+      &--apple {
+        background: no-repeat 16px center url("../img/brands/apple.svg");
+        @media (min-width: 768px) {
+          background-position: 17px 11px;
+        }
+      }
+      &--view-sonic {
+        background: no-repeat 16px center url("../img/brands/veiwsonic.svg");
+      }
+      &--bosch {
+        background: no-repeat 16px center url("../img/brands/bosch.svg");
+      }
+      &--hp {
+        background: no-repeat 16px center url("../img/brands/hp.svg");
+        @media (min-width: 768px) {
+          background-position: 11px center;
+        }
+      }
+      &--acer {
+        background: no-repeat 16px center url("../img/brands/acer.svg");
+      }
+      &--sony {
+        background: no-repeat 16px center url("../img/brands/sony.svg");
+      }
+    }
+    .swiper-link {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background-image: url("../img/swiper-link.svg");
+      background-size: 40px 40px;
+      top: 16px;
+      right: 16px;
+      @media (min-width: 768px) {
+        top: 14px;
+        right: 16px;
+      }
+    }
+  }
+}
+.block {
+  .swiper-wrapper {
+    .swiper-slide {
+      @media (min-width: 768px) {
+        margin-right: 21px;
+      }
+    }
+  }
+}
+.swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+}
+.swiper-pagination-bullet-active {
+  background-color: #949499;
+}
+
+.repair-devices-container {
+  min-height: 202px;
+}
+
+.price-list-container {
+  min-height: 250px;
+}
+.swiper-container {
+  padding-bottom: 51px;
+  margin-left: 16px;
+  overflow: hidden;
+  @media (min-width: 768px) {
+    display: flex;
+    margin-left: 24px;
+    padding-bottom: 1px;
+  }
+  @media (min-width: 1440px) {
+    margin-left: 5px;
+    padding-bottom: 2px;
+  }
+  .swiper-wrapper {
+    @media (min-width: 768px) {
+      flex-wrap: wrap;
+    }
+    @media (min-width: 1440px) {
+      margin-left: 26px;
+    }
+  }
+}
+.swiper-container.swiper-container-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 21px;
+  left: -2px;
+}
+.swiper-container.swiper-container-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin-left: 0;
+  margin-right: 11px;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.more-button--brands-block {
+  display: none;
+  @media (min-width: 768px) {
+    display: block;
+    margin-top: 8px;
+  }
+  @media (min-width: 1440px) {
+    margin-left: 63px;
+  }
+}
+
+.block--technics {
+  .swiper-container {
+    .swiper-slide {
+      padding-bottom: 1px;
+      @media (min-width: 1440px) {
+        &:nth-child(4) {
+          display: block;
+        }
+      }
+      .swiper-item {
+        margin-left: 16px;
+        margin-top: 20px;
+        font-family: "TT Lakes", sans-serif;
+        font-weight: 500;
+        letter-spacing: 0.2px;
+        height: 140px;
+        @media (min-width: 768px) {
+          margin-top: 18px;
+        }
+        @media (min-width: 1440px) {
+          margin-left: 17px;
+          margin-top: 18px;
+        }
+        .swiper-link {
+          top: 104px;
+        }
+      }
+    }
+  }
+}
+
+.more-button--technics-block {
+  display: none;
+  @media (min-width: 768px) {
+    display: block;
+    margin-top: 23px;
+  }
+}
+
+.block--technics__limiter {
+  @media (min-width: 768px) {
+    height: 161px;
+  }
+}
+
+.price-block {
+  padding-bottom: 47px;
+  .swiper-container {
+    margin-left: 8px;
+    @media (min-width: 768px) {
+      margin-left: 0;
+    }
+    .swiper-wrapper {
+      @media (min-width: 768px) {
+        display: none;
+      }
+      .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        width: 260px;
+        height: 200px;
+        border: none;
+
+        .swiper-item {
+          padding-left: 16px;
+          padding-top: 16px;
+
+          .card-service {
+            flex-wrap: wrap;
+            letter-spacing: 0.2px;
+            line-height: 18px;
+            height: 72px;
+          }
+          .card-price {
+            height: 56px;
+          }
+
+          .card-service::before {
+            content: "Ремонтные услуги";
+            display: block;
+            color: #7e7e82;
+            margin-bottom: 4px;
+          }
+          .card-price::before {
+            content: "Цена";
+            display: block;
+            color: #7e7e82;
+            margin-bottom: 5px;
+          }
+          .card-time::before {
+            content: "Срок";
+            display: block;
+            color: #7e7e82;
+            margin-bottom: 5px;
+          }
+          .swiper-link {
+            text-transform: uppercase;
+            width: 106px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            background: #ff3e79;
+            border: none;
+            border-radius: 16px;
+            top: 152px;
+            right: 17px;
+            font-size: 12px;
+            font-weight: bold;
+            padding-left: 12px;
+            color: #ffffff;
+          }
+          .swiper-link::after {
+            content: "";
+            position: absolute;
+            width: 7px;
+            height: 10px;
+            top: 11px;
+            right: 15px;
+            background-image: url("../img/button-decoration.svg");
+          }
+        }
+      }
+      .swiper-container.swiper-container-horizontal
+        > .swiper-pagination-bullets,
+      .swiper-pagination-custom,
+      .swiper-pagination-fraction {
+        bottom: 11px;
+      }
+    }
+  }
+
+  .price-block__table {
+    display: none;
+    @media (min-width: 768px) {
+      display: block;
+      border-collapse: collapse;
+      font-size: 14px;
+      line-height: 16px;
+      padding-left: 40px;
+      padding-right: 10px;
+      margin-top: -18px;
+      text-align: left;
+      position: relative;
+      z-index: 2;
+
+      @media (min-width: 1440px) {
+        padding-left: 58px;
+        padding-right: 0px;
+      }
+
+      .table-header {
+        font-weight: 500;
+        color: #7e7e82;
+        padding: 23px 16px 16px 0;
+      }
+      .table-text {
+        padding: 25px 25px 24px 0;
+        letter-spacing: 0.2px;
+        @media (min-width: 1440px) {
+          padding: 25px 120px 23px 0;
+        }
+      }
+      td:nth-child(2) {
+        padding-right: 20px;
+        @media (min-width: 1440px) {
+          padding-right: 155px;
+        }
+      }
+      td:nth-child(3) {
+        padding-right: 22px;
+        @media (min-width: 1440px) {
+          padding-right: 111px;
+        }
+      }
+
+      tr:nth-child(n + 2) {
+        border-bottom: 1px solid #eaeaea;
+      }
+      tr:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+  .price-block__table-background {
+    position: relative;
+  }
+  .price-block__table-background::after {
+    @media (min-width: 768px) {
+      content: "";
+      width: 720px;
+      height: 324px;
+      position: absolute;
+      top: 37px;
+      left: 24px;
+      background: #ffffff;
+      border-radius: 6px;
+    }
+    @media (min-width: 1440px) {
+      width: 1056px;
+      left: 34px;
+    }
+  }
+}
+
+.price-block__info {
+  padding-left: 16px;
+  margin-top: -6px;
+  @media (min-width: 768px) {
+    padding-left: 24px;
+    margin-top: 23px;
+  }
+  @media (min-width: 1440px) {
+    padding-left: 34px;
+    margin-top: 34px;
+  }
+}
+
+.price-block__info-text {
+  width: 250px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  padding-bottom: 16px;
+  @media (min-width: 768px) {
+    width: 420px;
+  }
+  @media (min-width: 1440px) {
+    padding-bottom: 14px;
+  }
+}
+
+.price-block__info-offer {
+  font-weight: bold;
+  color: #1b1c21;
+  line-height: 24px;
+  letter-spacing: -0.4px;
+  width: 100px;
+  position: relative;
+  white-space: pre;
+}
+
+.price-block__info-offer span::before {
+  content: "\A";
+  @media (min-width: 768px) {
+    content: "";
+  }
+}
+
+.price-block__info-offer span::after {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 10px;
+  bottom: 6px;
+  right: -14px;
+  background-image: url("../img/offer-decoration.svg");
+  @media (min-width: 768px) {
+    height: 12px;
+    bottom: 5px;
+  }
+}
+.purchase-button {
+  width: 106px;
+  padding-left: 12px;
+}

@@ -1,0 +1,47 @@
+.footer {
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: center;
+background-color: #F8F8F8;
+color: #7E7E82;
+padding-top: 18px;
+@media (min-width: 768px) {
+display:flex;
+text-align: left;
+padding-top: 33px;
+}
+@media (min-width: 1440px) {
+  padding-top: 36px;
+  }
+}
+
+.footer__copyright {
+  padding-bottom: 15px;
+  @media (min-width: 768px) {
+    padding-left: 24px;
+    padding-right: 40px;
+    }
+    @media (min-width: 1440px) {
+      padding-left: 44px;
+      padding-right: 148px;
+      }
+}
+
+.footer__privacy-policy {
+  padding-bottom: 15px;
+}
+
+.footer__public-offer {
+  @media (min-width: 768px) {
+    text-align: right;
+    width: 206px;
+    padding-left: 50px;
+    padding-right: 24px;
+    padding-bottom:30px;
+    }
+    @media (min-width: 1440px) {
+      padding-left: 147px;
+      width: 330px;
+      }
+}

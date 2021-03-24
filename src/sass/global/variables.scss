@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "TTLakes", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  @media (min-width: 1440px) {
+    flex-direction: row;
+  }
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  background-color: #ff3e79;
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+.button:active {
+  box-shadow: 0 0 0 2px #6b7b84;
+}
+
+.more-button {
+  font-size: 16px;
+  line-height: 24px;
+  @media (min-width: 768px) {
+    margin-left: 32px;
+  }
+}
+.more-button__image {
+  margin-right: 17px;
+}
+
+.more-button span {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.button2 {
+  text-transform: uppercase;
+
+  height: 32px;
+  display: flex;
+  align-items: center;
+  background: #ff3e79;
+  border: none;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: bold;
+
+  color: #ffffff;
+  position: relative;
+}
+.button2::after {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 10px;
+  top: 11px;
+  right: 15px;
+  background-image: url("../img/button-decoration.svg");
+}
+
+.filter {
+  position: relative;
+}
